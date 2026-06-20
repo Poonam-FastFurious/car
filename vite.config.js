@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/",
   plugins: [react(), tailwindcss()],
   server: {
-    allowedhosts: true, // Network access allow kareg
+     allowedHosts: true, // Network access allow kareg
   },
 });
