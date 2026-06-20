@@ -7,7 +7,6 @@ export default defineConfig({
   base: "/",
   plugins: [react(), tailwindcss()],
   server: {
-    allowedhosts: true, // Network access allow karega
-    port: 5173, // Optional: Port fix karne ke liye
+    allowedhosts: true, // Network access allow kareg
   },
 });
