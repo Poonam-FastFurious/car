@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 10" width="14" height="10">
+	<title>Layer 15</title>
+	<defs>
+		<image width="14" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAKCAYAAACE2W/HAAAAAXNSR0IArs4c6QAAAOVJREFUKFOVkjFKA2EQhb+3Km6jlUVa0UpI4Qkkt9DCQoiV6QJx1yqNGIKdSAoLwcYiHsDcIJWVoIWFpQdIEWL4n2wwYFbkx+nm8b7HzDDyGTWCekCFeAkYYV/LWXIFbsSZBcez3GKNZTYJugd2IgET8Akpd3Kmd4L31WXonGOsS2D9V4B1g0OTT1ZINShAf5seSX0w22Gc9MD1mW6eSHzIKq+MaYK6hfwTLPoJ6EKd0HbGLrCtDn3n7GE9ABvzScrgXP8AH7HEC1PdImrl0f8Co0eWc71htqLOkkE+pYrU/9cD4PMvjbZOQ8VatlcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 15" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+
+/* Regular */
+@font-face {
+  font-family: 'Helvetica Neue LT Pro';
+  src: url('./assets/fonts/helvetica-neue-lt-pro/HelveticaNeueLTProRoman.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Bold */
+@font-face {
+  font-family: 'Helvetica Neue LT Pro';
+  src: url('./assets/fonts/helvetica-neue-lt-pro/HelveticaNeueLTProBd.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* GT Walsheim Trial */
+
+/* Regular */
+@font-face {
+  font-family: 'GT Walsheim Trial';
+  src: url('./assets/fonts/gt/GT-Walsheim-Regular-Trial-BF651b7fc7342f.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'GT Walsheim Trial';
+  src: url('./assets/fonts/gt/GT-Walsheim-Bold-Trial-BF651b7fc570c3.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Medium (Agar hai) */
+@font-face {
+  font-family: 'GT Walsheim Trial';
+  src: url('./assets/fonts/gt/GT-Walsheim-Medium-Trial.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  input,
+  text,
+  button,
+  a,
+  ul,
+  li,
+  label,
+  select,
+  option,
+  textarea {
+    font-family: 'Helvetica Neue LT Pro', sans-serif;
+  }
+
+}
+
+.font-gt {
+  font-family: 'GT Walsheim Trial', sans-serif !important;
+}
+
+/* Ab apni custom CSS */
+:root {
+  --primary: #1D4ED8;
+  --second-blue: #005cb4;
+  --primary-text: #ffffff;
+  --secondry-text: #787a7f;
+  --third-text: #262626;
+  --fourth-text: #888888;
+  --secondary: #9333EA;
+  --global-red: #ef3d23;
+}
+
+.custom-red {
+  background-color: var(--global-red)
+}
+
+.custom-blue {
+  background-color: var(--primary);
+}
+
+.custom-blue:hover {
+  background-color: #003bdb;
+  /* background-image: url(); */
+}

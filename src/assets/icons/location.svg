@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 13" width="9" height="13">
+	<title>Layer 12</title>
+	<defs>
+		<image width="9" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAANCAYAAAB7AEQGAAAAAXNSR0IArs4c6QAAARhJREFUKFNdkU0rhGEUhq/7bRof8wtEUUTJX9BsKGsbNZGtDRvJTFITambwC6wsiKZmj6VfYKOUkmIlYiGNmplbz3jng2d1nrq6zn3OEYDzJKiyAloHRoBPUJlaI6dDXtSEctEpdgaoAQ/AIJACnsFpOcc8VgVzQ+QZFXjzKj2kon3wGlJZzuoOmKDucR1wH8yt56y+gWSAvoAE8kCw/IOegCF5UxUUWnpJJU7ali2Gqesx5AqZJrFuQ37wBnANjCHtYkaRduLpdIWZ7W4V169Enooh0lgXQO9f0BkVOWtCzV1lo3PwQhsSlyp4Lvw7UJ4kVX0AfcA79rRKhKwd6HfzLGMdY2+rxF7L2jbFN+ynGh2p2FjszvYD4TRmnvE/Mj8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 12" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

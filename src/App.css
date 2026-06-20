@@ -1,0 +1,49 @@
+.hero-section {
+    background-image: url(./assets/images/HomeImages/heroImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+
+}
+
+.home-discover-section {
+    background-image: url(./assets/images/HomeImages/MiddleBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+
+}
+
+.logo-effect-bg::before {
+    content: "";
+    width: 180px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 3px;
+    left: 0;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    z-index: 0;
+}
+
+.login-signup-bg-shap {
+    content: "";
+    width: 120px;
+    background: rgb(255, 0, 0);
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 0;
+}
+
+@media screen and (max-width:767px) {
+    .logo-effect-bg::before {
+        content: "";
+        width: 150px;
+        height: 40px;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        top: 3px;
+        left: 0;
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+        z-index: 0;
+    }
+}
